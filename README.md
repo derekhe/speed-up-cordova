@@ -1,10 +1,3 @@
-title: Speed up Cordova app development using http server
-date: 2015-04-21 20:00:15
-tags: 
-- cordova
-- android
----
-
 Cordova helps us make apps easily. The ability to run the apps inside browser greatly speeds up the development cycle. But I feel that it is hard to debug and rerun in a real device, especially I need to debug some plugin which needs real devices support. Normally I need to compile and redeploy the app. It takes at least 1 minutes to get all things ready even running inside Samsung S5.
 
 The cordova apps are running inside a WebKit, Chrome helps to connect the apps and you can inspect element or use any javascript debugging tool. Imaging the app is loaded from a self-hosted server, in the chrome developer tool, I can refresh the browser to load modified content. This is cool because you don't need to compile and restart the app, it saves a lot of when need to go through a lot of steps to reach that page. Question: How to do it?
